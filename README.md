@@ -1,16 +1,36 @@
-# uocr
+# Urdu OCR System
 
-A new Flutter project.
+## Overview
 
-## Getting Started
+This project is an Optical Character Recognition (OCR) system specifically designed for recognizing Urdu text in both PDFs and images. The system utilizes advanced machine learning techniques to accurately extract text from various document formats and integrate it into existing applications or systems.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- **OCR for Urdu Text**: Extracts text from PDFs and images containing Urdu script.
+- **Machine Learning Integration**: Utilizes trained ML models for accurate text recognition.
+- **Cross-Platform Support**: Designed to work seamlessly across different platforms.
+- **API Integration**: Easily integrates with existing systems via RESTful APIs.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Technologies Used
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Machine Learning**: Trained ML models for text recognition and processing.
+- **Python**: Core language for backend development, including data manipulation, ML model training, and deployment.
+- **Dart & Flutter**: Used for developing cross-platform applications with a focus on UI/UX.
+- **Flask**: Backend framework for API development and serving the OCR models.
+
+## Installation
+
+### Prerequisites
+
+- Python 3.8+
+- Dart & Flutter SDK
+- Flask
+- Required Python libraries (listed in `requirements.txt`)
+
+## Model Training & Deployment
+Model Training: The OCR models were trained using a large dataset of Urdu text documents, employing advanced machine learning techniques. The training pipeline includes data preprocessing, model training, and evaluation.
+
+- **Deployment:** The trained models are deployed using Flask, ensuring seamless integration with the backend API. The system is optimized for performance, handling real-time requests efficiently.
+
+- **Contributing**
+Contributions are welcome! Please submit a pull request or open an issue to discuss your ideas.
